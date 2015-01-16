@@ -1,0 +1,25 @@
+{
+  "name": "git-better",
+  "version": "1.0.0",
+  "description": "a practice git repo with a node server",
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.4.5",
+    "ws": "0.4.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timbouchard/git-better.git"
+  },
+  "author": "everyone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timbouchard/git-better/issues"
+  },
+  "homepage": "https://github.com/timbouchard/git-better"
+}
