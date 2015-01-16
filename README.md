@@ -3,6 +3,14 @@ git better at git
 
 --
 
+```bash
+for remote in `git branch -r `; do git branch --track $remote; done
+```
+
+```bash
+for remote in `git branch -r `; do git checkout $remote ; git pull; done
+```
+
 ### Installation
 
 **Install Node Dependencies**
